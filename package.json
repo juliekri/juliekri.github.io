@@ -1,0 +1,19 @@
+{
+  "name": "ruudgjerdrum",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliekri/ruudgjerdrum.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juliekri/ruudgjerdrum/issues"
+  },
+  "homepage": "https://github.com/juliekri/ruudgjerdrum#readme"
+}
