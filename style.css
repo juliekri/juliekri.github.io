@@ -1,0 +1,83 @@
+body{
+    font-family: 'Roboto', sans-serif;   
+     background-color:#cbb5ab ;
+     background-image: url("image/backgorundflowers.jpg");
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+
+h1{
+    color: #fefefe;
+}
+
+p{
+    color: #fefefe;
+}
+
+.header{
+    height: 87px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.logo-header-text{
+  height: 100px;
+  
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #3e3e30;
+}
+
+.showDropDown {
+    display: none;
+  }
+
+  .navbar-a-container{
+    display: flex; 
+    gap: 81px;
+    align-items: center;
+
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .main-container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: auto;
+    background-color: #CBB5AB;
+    align-items: center;
+    margin: 40px auto 40px auto; 
+    border-radius: 6px;
+    box-shadow: 1px 2px 9px -3px rgba(128,126,128,1);
+}
+
+.text-container{
+    width: 64%;
+    display: flex;
+  flex-direction: column;
+  color: #fefefe;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.rsvp-button{
+    width: 120px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  box-shadow: 1px 1px 6px 0px #7e7e7e; 
+   background-color: #46463c;
+
+}

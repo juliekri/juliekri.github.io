@@ -4,8 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Test2 </h1>
-</body>
+    <div class="header">
+      
+           <a href="index.html" class="logo-header-text"><img style="height: 100px;" src="image/logo.png"></a>
+       
+          
+         <div class="navbar-a-container" >
+         <a href="">Ønskeliste</a>
+          <a href="">Praktisk info</a>
+          <a href="">Om oss</a>
+          <a href="rsvp.html">RSVP</a>
+
+        </div>     
+      <div class="hamburger" onclick="handleShowDropDown(event)">
+          <span id="navBar" class="bar"></span>
+          <span id="navBar" class="bar"></span>
+          <span id="navBar" class="bar"></span>
+        </div>
+        
+      </div>
+      <div class="showDropDown">
+        <a class="a-smallscreen" onclick="handleShowDropDown(event)" href="index.html"
+          >Hjem
+        </a>
+        <a
+          class="a-smallscreen"
+          onclick="handleShowDropDown(event)"
+          href=""
+          >Ønskeliste</a
+        >
+        <a
+          class="a-smallscreen"
+          onclick="handleShowDropDown(event)"
+          href=""
+          >Praktisk info</a
+        >
+        <a
+        class="a-smallscreen"
+        onclick="handleShowDropDown(event)"
+        href="rsvp.html"
+        >RSVP</a
+      >
+      <a
+      class="a-smallscreen"
+      onclick="handleShowDropDown(event)"
+      href="massage-therapy.html"
+      >Om oss</a
+    >
+      </div>
+    
+      <div class="main-container">
+     <img style="width: 50%; margin-top: 28px;" src="image/logohvit.png" alt="Logo">
+        <div class="text-container">
+            <p style="text-transform: uppercase;">Vi har gleden av å invitere familie og venner til å feire bryllup tre dager til ende i Einarstua</p>
+            <p>26.07.2024 - 28.07.2024</p>
+
+        </div>
+    
+        <div class="rsvp-button"> <a style="color: #fefefe;" href="rsvp.html">RSVP</a></div> 
+
+      </div>
+      
+
+    </body>
 </html>
