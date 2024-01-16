@@ -1,8 +1,8 @@
 body{
     font-family: 'Roboto', sans-serif;   
      background-color:#cbb5ab ;
-     background-image: url("image/backgorundflowers.jpg");
      background-size: cover;
+     background-image: url("image/backgorundflowers.jpg");
      background-repeat: no-repeat;
 }
 
@@ -50,13 +50,32 @@ a{
   .main-container{
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 30%;
     height: auto;
     background-color: #CBB5AB;
     align-items: center;
     margin: 40px auto 40px auto; 
     border-radius: 6px;
     box-shadow: 1px 2px 9px -3px rgba(128,126,128,1);
+    background-image: url("image/transparentbackground.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.rsvp-container{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: auto;
+  background-color: #CBB5AB;
+  align-items: center;
+  margin: 40px auto 40px auto; 
+  border-radius: 6px;
+  box-shadow: 1px 2px 9px -3px rgba(128,126,128,1);
+  z-index: 99;
+  position: relative;
+  margin-top: 60px;
 }
 
 .text-container{
@@ -78,6 +97,77 @@ a{
   margin-top: 20px;
   margin-bottom: 40px;
   box-shadow: 1px 1px 6px 0px #7e7e7e; 
-   background-color: #46463c;
+   background-color: #eeeeec;
+   color: #3e3e30;
+  }
 
+.wishlist-button{
+  width: 120px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  box-shadow: 1px 1px 6px 0px #7e7e7e; 
+   background-color: #eeeeec;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 5vw);
+  grid-gap: 15px;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+.gallery__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.gallery__item--1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.gallery__item--2 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.gallery__item--3 {
+  grid-column-start: 5;
+  grid-column-end: 9;
+  grid-row-start: 1;
+  grid-row-end: 6;
+}
+
+.gallery__item--4 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 6;
+}
+
+.gallery__item--5 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 6;
+  grid-row-end: 9;
+}
+
+.gallery__item--6 {
+  grid-column-start: 5;
+  grid-column-end: 9;
+  grid-row-start: 6;
+  grid-row-end: 9;
 }
