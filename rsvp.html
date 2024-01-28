@@ -5,28 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RSVP</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.cdnfonts.com/css/amsterdam-2" rel="stylesheet">
 
+    <style>
+      @import url('https://fonts.cdnfonts.com/css/amsterdam-2');
+    </style>
 </head>
-<body>
-    <div class="header">
-      
-        <a href="index.html" class="logo-header-text"><img style="height: 100px;" src="image/logo.png"></a>
-    
-       
-      <div class="navbar-a-container" >
-      <a href="wishlist.html">Ønskeliste</a>
-       <a href="info.html">Praktisk info</a>
-       <a href="aboutus.html">Om oss</a>
-       <a href="rsvp.html">RSVP</a>
+<body class="rsvp-body">
+  <div class="header"> 
+    <a href="index.html" class="logo-header-text"><img style="height: 100px;" src="image/logo.png"></a>
+  <div class="navbar-a-container" >
+  <a href="wishlist.html">Ønskeliste</a>
+   <a href="info.html">Praktisk info</a>
+   <a href="aboutus.html">Bildegalleri</a>
+   <a href="rsvp.html">RSVP</a>
 
-     </div>     
-   <div class="hamburger" onclick="handleShowDropDown(event)">
-       <span id="navBar" class="bar"></span>
-       <span id="navBar" class="bar"></span>
-       <span id="navBar" class="bar"></span>
-     </div>
-     
-   </div>
+ </div>     
+<div class="hamburger" onclick="handleShowDropDown(event)">
+   <span id="navBar" class="bar"></span>
+   <span id="navBar" class="bar"></span>
+   <span id="navBar" class="bar"></span>
+ </div>
+ 
+</div>
    <div class="showDropDown">
      <a class="a-smallscreen" onclick="handleShowDropDown(event)" href="index.html"
        >Hjem
@@ -53,7 +54,7 @@
    class="a-smallscreen"
    onclick="handleShowDropDown(event)"
    href="aboutus.html"
-   >Om oss</a
+   >Bildegalleri</a
  >
    </div>
    <div class="rsvp-image-container">
@@ -61,18 +62,20 @@
    height: 450px;
   transform: translate(11px, -57px);  width: 50%;" alt="">
    <div class="rsvp-container">
-    <h1>RSVP</h1>
+    <h1 style="font-family: 'Amsterdam', sans-serif; color:#3e3e30">RSVP</h1>
 
-    <p style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    <p style="text-align: center; color:#3e3e30"">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
       Ut aliquam optio deserunt odit quia ab sit a iste quis officiis, quo blanditiis ipsa</p>
-      <ul style="color: #fefefe;">
+      <ul style="color:#3e3e30"">
         <li>Navn på hvem som kommer</li>
         <li>Hvilke dager kommer dere</li>
         <li>VIKTIG! Husk å skrive om du har noen allergier</li>
       </ul>
-      <div class="rsvp-button"><a href="">SVAR</a></div> 
+      <div class="rsvp-button" style="width: 224px;
+      height: 38px; margin-bottom: 10px;"> <a style="color: #f9f9f9" href="rsvp.html">Send ditt svar</a></div> 
     </div>
 
+    <script src="script.js"></script>
 
   </body>
 </html>
