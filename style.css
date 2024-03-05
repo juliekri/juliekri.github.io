@@ -332,4 +332,8 @@ width: 20rem;
       margin: 40px auto 0 auto;
   width: 98%;
     }
+
+    .info-flower-img{
+      display: none;
+    }
 }
